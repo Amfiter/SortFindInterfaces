@@ -1,5 +1,7 @@
 package com.syncretis;
 
+import com.syncretis.Interfaces.Sorter;
+
 public class SelectionSort implements Sorter {
 
     @Override

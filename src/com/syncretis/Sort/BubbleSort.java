@@ -1,5 +1,7 @@
 package com.syncretis;
 
+import com.syncretis.Interfaces.Sorter;
+
 public class BubbleSort implements Sorter {
 
     @Override

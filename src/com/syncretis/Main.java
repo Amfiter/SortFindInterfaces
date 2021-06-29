@@ -1,5 +1,13 @@
 package com.syncretis;
 
+import com.syncretis.Interfaces.Searcher;
+import com.syncretis.Interfaces.Sorter;
+import com.syncretis.Search.BinarySearch;
+import com.syncretis.Search.LinearSearch;
+import com.syncretis.Sort.BubbleSort;
+import com.syncretis.Sort.QuickSort;
+import com.syncretis.Sort.SelectionSort;
+
 import java.util.Arrays;
 
 public class Main {
@@ -7,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; ++i) {
             Sorter bubble = new BubbleSort();
             Sorter selective = new SelectionSort();
             Sorter quick = new QuickSort();

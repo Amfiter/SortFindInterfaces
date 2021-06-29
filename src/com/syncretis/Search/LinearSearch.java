@@ -1,5 +1,7 @@
 package com.syncretis;
 
+import com.syncretis.Interfaces.Searcher;
+
 public class LinearSearch implements Searcher {
     @Override
     public void search(int[] array, int elementToSearch) {
