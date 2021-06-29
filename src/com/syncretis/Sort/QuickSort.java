@@ -1,5 +1,7 @@
 package com.syncretis;
 
+import com.syncretis.Interfaces.Sorter;
+
 public class QuickSort implements Sorter {
 
     @Override
